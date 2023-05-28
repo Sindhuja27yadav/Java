@@ -12,6 +12,6 @@ public static void main(String[] args){
            }
         }
     }
- System.out.println("Array with Duplicates Replaced: "+Arrays.toString(numbers));
+ System.out.println("Array with Duplicates Replaced:"+Arrays.toString(numbers));
   }
  }
