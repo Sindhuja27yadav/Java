@@ -17,7 +17,7 @@ public class WordCount{
     charCount+=line.length();
     }  
    System.out.println("Number of words:"+wordCount);
-   System.out.println("Number of characters:"+ charCount);
+   System.out.println("Number of characters:"+charCount);
    System.out.println("Number of lines:"+lineCount);
   }catch(IOException e) {
      e.printStackTrace();
