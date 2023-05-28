@@ -10,7 +10,7 @@ public class RecursiveGCD{
    }
 public static void main(String[] args){
  // Print the classpath
-String classPath=System.getProperty("java.class.path");
+String classPath=System.getProperty("java.class.path ");
 System.out.println("Classpath:"+classPath);
  // Calculate and print the GCD
 int num1=24;
