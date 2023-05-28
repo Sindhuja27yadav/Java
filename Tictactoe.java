@@ -20,7 +20,7 @@ public class Tictactoe{
       else if(checkDraw())
     
      {
-      System.out.println("It's a draw!");      
+      System.out.println("It's a draw! ");      
         gameEnded=true;
        }
         else            
