@@ -5,7 +5,7 @@ public class popsicles{
     int sibilings=sc.nextInt();
     int popsicles=sc.nextInt();
     if(popsicles%sibilings==0)
-      System.out.println("give away");
+      System.out.println("give away.");
     else
       System.out.println("eat them yourself");
     }
