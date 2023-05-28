@@ -22,7 +22,7 @@ public class Calculator{
         if(num2!=0)
           result= num1/num2;
         else{
-          System.out.println("Error: Division by Zero is not allowed");
+          System.out.println("Error: Division by Zero is not allowed ");
         return;
           }
         break;
