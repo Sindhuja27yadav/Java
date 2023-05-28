@@ -1,0 +1,11 @@
+public class ApplePieCalculator {
+public static void main(String[] args) {
+ int totalFruit = 26; 
+// Replace with the actual total amount of fruit
+  int numberOfApples = totalFruit / 2; 
+// Half of the total fruit is apples
+  int numberOfPies = numberOfApples / 3; 
+// Each pie requires 3 apples
+   System.out.println(numberOfPies);
+    }
+}
