@@ -1,0 +1,43 @@
+public class CamelToSnakeCase{
+public static void main(String[] args){
+String camelCased="camelCasing"; 
+//Replace with the actual camelCased string
+  StringBuilder snakeCased=new StringBuilder();   
+for (int i = 0;i< camelCased.length();i++){
+ char currentChar=camelCased.charAt(i);
+  if (Character.isUpperCase(currentChar)){
+     if (i != 0){
+       snakeCased.append("_");
+               }
+     snakeCased.append(Character.toLowerCase(currentChar));
+     } 
+     else
+     {
+       snakeCased.append(currentChar);
+      }
+    } 
+        System.out.println(snakeCased.toString());
+    }
+}
+public class CamelToSnakeCase{
+    public static void main(String[] args){
+     String camelCased="camelCasing";
+ // Replace with the actual camelCased string
+  StringBuilder snakeCased=new StringBuilder();
+      for (int i=0;i<camelCased.length();i++){
+         char currentChar=camelCased.charAt(i);    
+            if(Character.isUpperCase(currentChar)){
+                if(i!=0){
+                   snakeCased.append("_");
+               }  
+          snakeCased.append(Character.toLowerCase(currentChar));
+          } 
+else 
+{
+ snakeCased.append(currentChar);
+   }
+ }
+
+System.out.println(snakeCased.toString());
+    }
+}
