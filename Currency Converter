@@ -1,4 +1,4 @@
-// Currency Converter
+// Currency Converter using Swing and Event handlings
 
 
 import javax.swing.*;
